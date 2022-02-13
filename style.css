@@ -1,5 +1,5 @@
 #headline1 {
-  background: Lavender;
+  background: #ACE1AF;
   border-radius: 3px;
   color: black;
   padding-left: 20px;
@@ -35,7 +35,7 @@ ul.navbar {
   word-break: break-word;
 }
 ul.navbar li.active {
-  background: Lavender;
+  background: #ACE1AF;
   opacity: 0.9;
   margin: 0.1em 0;
   padding: 0.4em;
@@ -45,7 +45,7 @@ ul.navbar li.active {
   font-size: 15px;
 }
 ul.navbar li {
-  background: Lavender;
+  background: #ACE1AF;
   opacity: 0.9;
   margin: 0.1em 0;
   padding: 0.4em;
