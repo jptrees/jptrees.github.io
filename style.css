@@ -39,7 +39,7 @@ ul.navbar li.active {
   opacity: 0.9;
   margin: 0.1em 0;
   padding: 0.4em;
-  border-right: 1em solid black;
+  border-right: 1em solid #2D4436;
   height: 110%;
   line-height: 110%;
   font-size: 15px;
@@ -49,7 +49,7 @@ ul.navbar li {
   opacity: 0.9;
   margin: 0.1em 0;
   padding: 0.4em;
-  border-right: 1em solid gray;
+  border-right: 1em solid #817B69;
   height: 110%;
   line-height: 110%;
   font-size: 15px;
