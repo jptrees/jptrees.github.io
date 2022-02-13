@@ -1,5 +1,5 @@
 #headline1 {
-  background:linear-gradient(#D9C37A, #E7E8E2 50%, #E7E8E2 50%, #D9C37A);
+  background:linear-gradient(#407A52, #A5BA93 50%, #A5BA93 50%, #6B9362);
   border-radius: 3px;
   color: black;
   padding-left: 20px;
@@ -35,7 +35,7 @@ ul.navbar {
   word-break: break-word;
 }
 ul.navbar li.active {
-  background: #E7E8E2;
+  background:linear-gradient(20deg, #A5BA93, #8C9C76);
   opacity: 0.9;
   margin: 0.1em 0;
   padding: 0.4em;
@@ -45,7 +45,7 @@ ul.navbar li.active {
   font-size: 15px;
 }
 ul.navbar li {
-  background: #E7E8E2;
+  background:linear-gradient(20deg, #A5BA93, #8C9C76);
   opacity: 0.9;
   margin: 0.1em 0;
   padding: 0.4em;
