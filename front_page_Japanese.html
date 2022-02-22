@@ -2,13 +2,13 @@
 <html>
 <head>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-  <title>The Kusunoki Treebank</title>
+  <title>かいのき ツリーバンク</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <div id="headline1">
-<h1>The Kusunoki Treebank &ndash; a parsed corpus of contemporary Japanese</h1>
+<h1>かいのき ツリーバンク &ndash; a parsed corpus of contemporary Japanese</h1>
 </div>
 
 <ul class="navbar">
@@ -22,26 +22,24 @@
 <h1>フロント・ページ</h1>
 
 <p align="justify">
-The Kusunoki Treebank is a corpus of contemporary Japanese
-with hand worked tree analysis for approaching half-a-million words.
-Highlights include:
+かいのきツリーバンクは、手作業のツリー分析による150万語の現代日本語コーパスです。
+ハイライトは以下の通りです:
 </p>
 
 <ul>
-<li>romanisation
-<li>partial lemmatisation
-<li>labelled constituent structure
-<li>assignments of grammatical function
-<li>zero elements
-<li>information to resolve anaphoric dependencies
+<li>ローマ字化
+<li>部分的なレマタイゼーション
+<li>ラベル付けされた構成素構造
+<li>文法的役割の研究課題
+<li>ゼロ要素
+<li>照応依存関係の解決のための情報
 </ul>
 
 <p align="justify">
-Further results &mdash; notably, dependency graphs &mdash; derived from the analysis
-can be seen with the search interface.
+さらに、解析結果から得られた&mdash;依存関係グラフ&mdash;を検索インターフェイスで見ることができます。
 </p>
 
-<h2>A companion resource</h2>
+<h2>コンパニオンリソース</h2>
 
 <p align="justify">
 The Kusunoki Treebank is a companion resource of <a href="https://kainoki.github.io/">The Kainoki Treebank</a>.
@@ -50,45 +48,43 @@ The Kusunoki Treebank is created by exchanging the
 of The Kainoki Treebank for a different (romanised) morphological base
 while retaining the syntactic level annotation.
 Currently just under a third of the data of The Kainoki Treebank is used.
+くすのきツリーバンクは<a href="https://kainoki.github.io/">The Kainoki Treebank</a>のコンパニオンリソースです。
+くすのきツリーバンクは(日本語スクリプトである)かいのきツリーバンクをベースに、構文レベルのアノテーションを保持したまま(ローマ字化された)データに置き換えることで作られました。
+現在では役3分の1のかいのきツリーバンクのデータが使用されています。
 </p>
 
-<h2>Search Interface</h2>
+<h2>検索インターフェイス</h2>
 
 <p align="justify">
-The Kusunoki Treebank is associated with a powerful user <b><a href="https://oncoj.orinst.ox.ac.uk/cgi-bin/kusunoki.sh">interface</a></b>
-that enables search using virtually any aspect of the annotation.
-Results of specific searches can be downloaded in the form of annotated data.
-The source data to which the search interface links is being updated constantly to reflect improvements in analysis.
+かいのきツリーバンクは、アノテーションのほぼすべての側面を使用して検索できる強力な<b><a href="http://160.16.203.55/dev/cgi-bin/overview.sh?db=Kainoki">interface</a></b>ユーザーと関連付けられています。
+特定検索の結果は、アノテーションデータとしてダウンロードすることができます。
+検索インターフェースとリンクしているソースデータは、改良のため常に分析し更新されています。
 </p>
 
 <!--
 
-<h2>Using the corpus for advanced research</h2>
+<h2>研究にコーパスを使う</h2>
 
 <p align="justify">
-The available on-line interface is a powerful and flexible tool sufficient for many research purposes, but note that the data on which it operates is updated in real time.
-For extended research projects it is often advisable to download a release version for use off-line.
-This not only provides the advanced researcher a stable set of data,
-but also allows for manipulation of the data to reflect analyses that are not included in the present online corpus
-but are necessary for a given research project.
+利用可能なオンライン・インターフェースは、多くの研究目的に十分対応できる強力かつ柔軟なツールですが、動作するデータはリアルタイムに更新されることに留意する必要があります。
+長期的な研究プロジェクトでは、オフラインで使用するためにリリースバージョンをダウンロードすることが推奨される場合があります。
+これは、高度な研究者に安定したデータセットを提供するだけではなく、現在のオンライン・コーパスには含まれていない分析を反映させるために、データを操作することも可能ですが、これは研究プロジェクトに必要です。
 </p>
 
-<h2>Data format</h2>
+<h2>データフォーマット</h2>
 
 <p align="justify">
-The working data format of The Kusunoki Treebank is
-the <tt>.cha</tt> format required by the <a href="https://dali.talkbank.org/clan/">CLAN programs</a> of the CHILDES project.
-The content of the <tt>.cha</tt> files is then merged with tree information from The Kainoki Treebank
-to create trees in the bracketed format required by <a href="http://corpussearch.sourceforge.net/CS-manual/YourCorpus.html">CorpusSearch</a>.
+くすのきツリーバンクの作業用データフォーマットは、CHILDESプロジェクトの<a href="https://dali.talkbank.org/clan/">CLAN programs</a>に要求されている<tt>.cha</tt>フォーマットです。
+<tt>.cha</tt>ファイルの内容はかいのきツリーバンクのツリー情報とマージされ、 <a href="http://corpussearch.sourceforge.net/CS-manual/YourCorpus.html">CorpusSearch</a>に要求される括弧形式のツリーが生成されます。
 </p>
 
-<h2>Mistakes</h2>
+<h2>ミス</h2>
 
 <p align="justify">
-As with any annotated text corpus, there are mistakes in The Kusunoki Treebank.
-The corpus is ongoing work and is under continuous improvement and correction.
-Mistakes will be corrected as they become apparent and as time allows.
-We will be grateful to be made aware of mistakes and will endeavour to eliminate them with the help of users (<a href="contact.html">contact</a>).
+他の注釈付きテキストコーパスのように、かいのきツリーバンクにも間違いがあります。
+コーパスでは、より発展し正確になものになるよう日々作業を進められいます。
+ミスが明らかになれば、時間が許す限り正されてゆきます。
+間違いを指摘して頂けると大変うれしく思うと同時に、ユーザー様のご協力を (<a href="contact.html">contact</a>)得て正確性の>向上に努めて参ります。
 </p>
 
 -->
